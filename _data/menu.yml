@@ -1,0 +1,118 @@
+pl:  
+  - name: "Strona główna"
+    url: "/"
+    weight: 1
+  - name: "O nas"
+    url: "/o-nas/"
+    weight: 2
+  - name: "Sprzęgła"
+    url: "/sprzegla"
+    weight: 3
+    submenu:
+      - name: "austriackie"
+        url: "/austriackie/"
+      - name: "bułgarskie"
+        url: "/bulgarskie/"
+      - name: "czeskie"
+        url: "/czeskie/"
+      - name: "francuskie"
+        url: "/francuskie/"
+      - name: "japońskie"
+        url: "/japonskie/"
+      - name: "niemieckie"
+        url: "/niemieckie/"
+      - name: "polskie"
+        url: "/polskie/"
+      - name: "rosyjskie"
+        url: "/rosyjskie/"
+      - name: "rumuńskie"
+        url: "/rumunskie/"
+  - name: "Hamulce"
+    url: "/hamulce/"
+    weight: 4
+  - name: "Szczotkotrzymacze"
+    url: "/szczotkotrzymacze"
+    weight: 5
+    submenu:
+      - name: "niemieckie"
+        url: "/niemieckie/"
+      - name: "polskie"
+        url: "/polskie/"
+      - name: "rosyjskie"
+        url: "/rosyjskie/"
+  - name: "Części zamienne"
+    url: "/czesci-zamienne"
+    weight: 6
+    submenu:
+      - name: "Dźwigienki"
+        url: "/dzwigienki/"
+      - name: "Przełączniki krzyżowe"
+        url: "/przelaczniki-krzyzowe/"
+      - name: "Przełączniki piętrowe"
+        url: "/przelaczniki-pietrowe/"
+      - name: "Regeneracja cewki"
+        url: "/regeneracja-cewki/"
+      - name: "Tarcze sprzęgłowe"
+        url: "/tarcze-sprzeglowe/"
+  - name: "Kontakt"
+    url: "/kontakt/"
+    weight: 7
+en: 
+  - name: "Home"
+    url: "/en/"
+    weight: 1
+  - name: "About us"
+    url: "/en/about/"
+    weight: 2
+  - name: "Clutches"
+    url: "/en/clutches"
+    weight: 3
+    submenu:
+      - name: "Austrian"
+        url: "/austrian/"
+      - name: "Bulgarian"
+        url: "/bulgarian/"
+      - name: "Czech"
+        url: "/czech/"
+      - name: "French"
+        url: "/french/"
+      - name: "Japanese"
+        url: "/japanese/"
+      - name: "German"
+        url: "/german/"
+      - name: "Polish"
+        url: "/polish/"
+      - name: "Russian"
+        url: "/russian/"
+      - name: "Romanian"
+        url: "/romanian/"
+  - name: "Brakes"
+    url: "/en/brakes/"
+    weight: 4
+  - name: "Brush holders"
+    url: "/en/brush-holders"
+    weight: 5
+    submenu:
+      - name: "German"
+        url: "/german/"
+      - name: "Polish"
+        url: "/polish/"
+      - name: "Russian"
+        url: "/russian/"
+  - name: "Spare parts"
+    url: "/en/spare-parts"
+    weight: 6
+    submenu:
+      - name: "Levers"
+        url: "/levers/"
+      - name: "Cross switches"
+        url: "/cross-switches/"
+      - name: "Floor switches"
+        url: "/floor-switches/"
+      - name: "Coil reconditioning"
+        url: "/coil-reconditioning/"
+      - name: "Clutch discs"
+        url: "/clutch-discs/"
+  - name: "Contact"
+    url: "/en/contact/"
+    weight: 7

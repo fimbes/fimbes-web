@@ -1,0 +1,35 @@
+---
+---
+// colors
+$primary: #F00804;
+$secondary: #221E1F;
+
+// bootstrap
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/bootstrap';
+
+// components
+@import 'components/menu';
+@import 'components/header';
+
+// pages
+@import 'pages/home';
+@import 'pages/products';
+
+body {
+    font-size: 16px;
+    @include media-breakpoint-up(xxl){
+        font-size: 18px;
+    }
+}
+// default layout
+.wrapper{
+    min-height: calc(100vh - 23em);
+    height: auto;
+}
+
+// product layout
+.product-shadow{
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, .25);
+}

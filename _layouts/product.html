@@ -1,0 +1,26 @@
+---
+layout: null
+---
+{% assign translations = site.data.translations %}
+<div class="col-12 col-xxl-6">
+    <div class="product-shadow bg-white mx-3 p-1">
+        {% if page.title %}
+        <h2>{{page.title}} {% if page.company %} - {{page.company}} {% endif %}</h2>
+        {% endif %}
+        {{content}}
+        {% if page.images %}
+        <div class="img-container">
+            {% for img in page.images %}
+                <img src="{{img | relative_url}}" alt="{{ page.title }} - img{{ forloop.index }}" class="img-fluid">
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if page.documents %}
+        <div class="doc-container">
+            {% for doc in page.documents %}
+                <a href="{{doc | relative_url}}" target="_blank">{{ translations.docs[page.lang] }} {{ page.title }}-{{ forloop.index }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign translations = site.data.translations %}
+<div class="container mb-3">
+    <div class="products-intro row">
+        <h1 class="products-intro__header text-center">{{page.title}}</h1>
+        <p class="lead">{{ content | remove: "<p>" | remove: "</p>" }}</p>
+        <div class="col justify-content-end"><a href="mailto:mailto:fimbes@fimbes.com.pl" class="float-end products-intro__btn">{{ translations.orderNow[page.lang] }}</a></div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row g-5 bg-light pb-5">
+        {% for collection in site.collections %}
+            {% if collection.label != 'posts' %}
+                {% if collection.label == page.collection %}
+                {% assign categoryPages = site[collection.label] | where: "category", page.category | where: "type", page.type | where: "layout", "product" %}
+                    {% for item in categoryPages %}
+                        {{item}}
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

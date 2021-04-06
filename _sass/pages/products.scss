@@ -1,0 +1,25 @@
+.products-intro{
+    .products-intro__header{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .products-intro__btn{
+        display: inline-block;
+        text-decoration: none;
+        padding: .375rem .75rem;
+        line-height: 1.5;
+        color: white;
+        background-color: $primary;
+        width: max-content;
+        align-self: end;
+    }
+}
+.link-to-category{
+    margin: 1em;
+    padding: 0 .5em;
+    border: 1px solid $primary;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    background: $primary;
+}

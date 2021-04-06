@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% assign translations = site.data.translations %}
+<div class="container">
+    <p>{{ translations.error[page.lang] }}</p>
+    <a href="{{site.base_url}}">{{ translations.goBack[page.lang] }}</a>
+</div>

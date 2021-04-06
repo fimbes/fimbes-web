@@ -1,0 +1,83 @@
+title: 'Fimbes | Wawrzycki i syn'
+logo:
+  desktop: "assets/logo/logo.jpg"
+  mobile: "assets/logo/logo-mobile.jpg"
+permalink: pretty
+default_language: pl
+# url: https://fimbes.com.pl
+exclude: ['README.md']
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      lang: pl
+      base_url: '/'
+  -
+    scope:
+      path: '_czesci-zamienne/pl/'
+    values:
+      lang: pl
+  -
+    scope:
+      path: '_hamulce/pl/'
+    values:
+      lang: pl
+  -
+    scope:
+      path: '_sprzegla/pl/'
+    values:
+      lang: pl
+  -
+    scope:
+      path: '_szczotkotrzymacze/pl/'
+    values:
+      lang: pl
+  -
+    scope:
+      path: 'en'
+    values:
+      lang: en
+      base_url: "/en/"
+  -
+    scope:
+      path: '_czesci-zamienne/en/'
+    values:
+      lang: en
+  -
+    scope:
+      path: '_hamulce/en/'
+    values:
+      lang: en
+  -
+    scope:
+      path: '_sprzegla/en/'
+    values:
+      lang: en
+  -
+    scope:
+      path: '_szczotkotrzymacze/en/'
+    values:
+      lang: en
+sass:
+  style: compact 
+  precision: 10
+
+collections_dir: products
+collections:
+  sprzegla:
+    output: true
+  czesci-zamienne:
+    output: true
+  szczotkotrzymacze:
+    output: true
+  hamulce:
+    output: true
+
+seo:
+  meta_og_title: "Fimbes - Wawrzycki i syn"
+  meta_og_type: "website"
+  meta_og_url: "https://fimbes.com.pl"
+  meta_og_image: "assets/screenshot.png"
+  meta_og_description: "Obrabiarki i części zamienne - sprzęgła, hamulce, szczotkotrzymacze, części mechaniczne, elementy hydrauliki siłowej, elementy pneumatyki siłowej i łożyska."
+  meta_twitter_card: "summary"

@@ -1,0 +1,18 @@
+homeHeader: 
+  pl: Obrabiarki i części zamienne
+  en: Machine tools and spare parts
+orderNow:
+  pl: Zamów teraz
+  en: Order now
+docs:
+  pl: Dokumentacja
+  en: Documentation for
+error:
+  pl: Nie ma takiej strony
+  en: There is no such page
+goBack:
+  pl: Wróć na stronę główną
+  en: Go back to the homepage
+siteDesc:
+  pl: Części zamienne do wszystkich rodzajów i typów obrabiarek
+  en: Spare parts for all types and kinds of machine tools
