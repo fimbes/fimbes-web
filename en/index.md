@@ -5,4 +5,4 @@ description: Fimbes | Machine tools and spare parts
 permalink: '/en/'
 translation_url: '/'
 ---
-We supply mechanical parts, power hydraulics components, power pneumatics components and bearings
+We supply electromagnetic clutches, mechanical parts, power hydraulics components, power pneumatics components and bearings

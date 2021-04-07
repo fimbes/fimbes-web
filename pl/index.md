@@ -5,5 +5,5 @@ description: Sprzęgła, hamulce, szczotkotrzymacze i części zamienne do obrab
 permalink: '/'
 translation_url: '/en/'
 ---
-Dostarczamy części mechaniczne, elementy hydrauliki siłowej, elementy pneumatyki siłowej i łożyska
+Dostarczamy sprzęgła elektomagnetyczne, części mechaniczne, elementy hydrauliki siłowej, elementy pneumatyki siłowej i łożyska
         
