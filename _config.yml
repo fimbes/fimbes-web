@@ -4,7 +4,7 @@ logo:
   mobile: "assets/logo/logo-mobile.jpg"
 permalink: pretty
 default_language: pl
-# url: https://fimbes.com.pl
+url: https://fimbes.com.pl
 exclude: ['README.md']
 defaults:
   -

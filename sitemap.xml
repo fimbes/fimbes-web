@@ -13,7 +13,7 @@ permalink: '/sitemap.xml'
         <loc>{{site.url}}{{site.base_url}}{{ page.url }}</loc>
         {%- assign versions=site.pages | where:'translation_url', page.permalink -%}
         {%- for version in versions -%}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{site.base_url}}{{ version.url }}" />
         {%- endfor -%}
         <changefreq>weekly</changefreq>
       </url>
@@ -23,10 +23,10 @@ permalink: '/sitemap.xml'
   {%- for doc in collection.docs -%}
     {% if doc.permalink %}
       <url>
-        <loc>{{site.url}}{{ doc.permalink }}</loc>
+        <loc>{{site.url}}{{site.base_url}}{{ doc.permalink }}</loc>
         {%- assign versions= collection.docs | where:'translation_url', doc.permalink -%}
         {%- for version in versions -%}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{site.base_url}}{{ version.url }}" />
         {%- endfor -%}
         <changefreq>weekly</changefreq>
       </url>
