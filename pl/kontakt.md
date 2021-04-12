@@ -1,5 +1,6 @@
 ---
-title: Fimbes - kontakt
+title: Fimbes | Kontakt
+description: Jeżeli masz problem z uruchomieniem obrabiarki - skontaktuj się z nami.
 layout: default
 permalink: '/kontakt/'
 translation_url: '/en/contact/'

@@ -1,6 +1,7 @@
 ---
 layout: products
-title: Brush holders
+title: Fimbes | Brush holders
+description: Brush holders and brush mounting kits for machine tools
 collection: szczotkotrzymacze
 permalink: '/en/brush-holders/'
 translation_url: '/szczotkotrzymacze/'

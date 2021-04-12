@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{%- assign translations = site.data.translations -%}
 <html lang="{{page.lang}}">
 <head>
   <meta charset="utf-8">
@@ -6,19 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}" />
-  {% endif %}
-  <meta property="og:title" content="{{ site.seo.meta_og_title }}" />
+  <meta name="description" {% if page.description %} content="{{ page.description }}" {% else %} content="{{ translations.siteDesc[page.lang] | escape }}" {%- endif -%} />
+  <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:type" content="{{ site.seo.meta_og_type }}" />
   <meta property="og:url" content="{{ site.seo.meta_og_url }}" />
   <meta property="og:image" content="{{ site.seo.meta_og_image }}" />
-  <meta property="og:description" content="{{ site.seo.meta_og_description }}" />
+  <meta property="og:description" content="{{ translations.siteDesc[page.lang] }}" />
   <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
-  {% if page.layout == "home" %}{% include schema.html %}{% endif %}
+  {%- if page.layout == "home" and page.lang == "pl" -%}{%- include schema.html -%}{%- endif -%}
 </head>
 <body>
-    {% include header.html %}
+    {%- include header.html -%}
     <main class="wrapper py-5">
         {{content}}
     </main>

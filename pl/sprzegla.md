@@ -1,6 +1,7 @@
 ---
 layout: products
-title: Sprzęgła
+title: Fimbes | Sprzęgła
+description: Sprzęgła elektromagnetyczne, hydrauliczne, tarczowe, wielopłytkowe, zębate. Do pracy na sucho i w oleju.
 collection: sprzegla
 permalink: '/sprzegla/'
 translation_url: '/en/clutches/'

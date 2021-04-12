@@ -75,9 +75,7 @@ collections:
     output: true
 
 seo:
-  meta_og_title: "Fimbes - Wawrzycki i syn"
   meta_og_type: "website"
   meta_og_url: "https://fimbes.com.pl"
   meta_og_image: "assets/screenshot.png"
-  meta_og_description: "Obrabiarki i części zamienne - sprzęgła, hamulce, szczotkotrzymacze, części mechaniczne, elementy hydrauliki siłowej, elementy pneumatyki siłowej i łożyska."
   meta_twitter_card: "summary"

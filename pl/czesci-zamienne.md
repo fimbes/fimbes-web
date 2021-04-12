@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Części zamienne
+title: Fimbes | Części zamienne
 description: Dźwigienki, przełączniki krzyżowe i piętrowe, regeneracja cewki, tarcze sprzęgłowe
 collection: czesci-zamienne
 permalink: '/czesci-zamienne/'

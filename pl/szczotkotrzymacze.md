@@ -1,6 +1,7 @@
 ---
 layout: products
-title: Szczotkotrzymacze
+title: Fimbes | Szczotkotrzymacze
+description: Szczotkotrzymacze i zestawy montażowe szczotki do obrabiarek
 collection: szczotkotrzymacze
 permalink: '/szczotkotrzymacze/'
 translation_url: '/en/brush-holders/'

@@ -1,6 +1,7 @@
 ---
 layout: products
-title: Clutches
+title: Fimbes | Clutches
+description: Electromagnetic clutches, hydraulic clutches, disc clutches, multi-plate clutches, gear clutches. For dry and oil service.
 collection: sprzegla
 permalink: '/en/clutches/'
 translation_url: '/sprzegla/'

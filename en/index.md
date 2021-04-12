@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Fimbes - Wawrzycki i syn
-description: Fimbes | Machine tools and spare parts
+description: Clutches, brakes, brush stops and spare parts for machine tools (lathes, milling machines, grinding machines, etc.)
 permalink: '/en/'
 translation_url: '/'
 ---

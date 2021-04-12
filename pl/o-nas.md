@@ -1,5 +1,6 @@
 ---
-title: Fimbes - o firmie
+title: Fimbes | O firmie
+description: Historia naszej firmy
 layout: default
 permalink: '/o-nas/'
 translation_url: '/en/about/'

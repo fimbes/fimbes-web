@@ -5,47 +5,47 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        {% assign menu = site.data.menu[page.lang] | sort: 'weight'  %}
+        {%- assign menu = site.data.menu[page.lang] | sort: 'weight'  -%}
             <ul class="navbar-nav mx-auto">
-            {% for item in menu %}
-                {% if item.submenu %}
+            {%- for item in menu -%}
+                {%-if item.submenu -%}
                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="{{ item.name }}-dropdown" href="{{ site.url }}{{ item.url | relative_url }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name | upcase }}</a>
                     <ul  class="dropdown-menu" aria-labelledby="{{ item.name }}-dropdown">
-                        {% for subitem in item.submenu %}
+                        {%-for subitem in item.submenu -%}
                             <li>
                                 <a class="dropdown-item" href="{{ site.url }}{{ item.url | relative_url }}{{ subitem.url | relative_url }}">{{ subitem.name | upcase }}</a>
                             </li>
-                        {% endfor %}
+                        {%-endfor -%}
                     </ul>
                  </li>
-                {% else %}
+                {%-else -%}
                 <li class="nav-item">
-                    <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.url }}{{ item.url | relative_url }}">{{ item.name | upcase }}</a>
+                    <a class="nav-link {%if item.url == page.url %}active{%endif %}" href="{{ site.url }}{{ item.url | relative_url }}">{{ item.name | upcase }}</a>
                 </li>
-                {% endif %}
-            {% endfor %}
-            {% if page.lang == site.default_language%}
-                {% if page.translation_url %}
+                {%-endif -%}
+            {%-endfor -%}
+            {%-if page.lang == site.default_language%}
+                {%-if page.translation_url -%}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.url}}{{ page.translation_url | relative_url }}">EN</a>
                     </li>
-                {% else %}
+                {%-else -%}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.url}}/en">EN</a>
                     </li>
-                {% endif %}
-            {% else %}
-                {% if page.translation_url %}
+                {%-endif -%}
+            {%-else -%}
+                {%-if page.translation_url -%}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.url}}{{ page.translation_url | relative_url }}">PL</a>
                     </li>
-                {% else %}
+                {%-else -%}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.url}}">PL</a>
                     </li>
-                {% endif %}
-            {% endif %}
+                {%-endif -%}
+            {%-endif -%}
             </ul>
         </div>
     </div>
