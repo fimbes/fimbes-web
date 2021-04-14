@@ -3,6 +3,11 @@ layout: default
 ---
 {% assign translations = site.data.translations %}
 <div class="container">
-    <p>{{ translations.error[page.lang] }}</p>
-    <a href="{{site.base_url}}">{{ translations.goBack[page.lang] }}</a>
+    <div class="row justify-content-center mb-3">
+        <p class="lead text-center">{{ translations.error[page.lang] }}</p>
+        <a href="{{ site.url }}" class="goBack-button">{{ translations.goBack[page.lang] }}</a>
+    </div>
+    <div class="row justify-content-center">
+        <img src="{{ "assets/404.svg" | relative_url }}" alt="" class="error-img">
+    </div>
 </div>

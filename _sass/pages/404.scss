@@ -1,0 +1,19 @@
+.goBack-button{
+    display: block;
+    text-decoration: none;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: white;
+    background-color: $primary;
+    width: max-content;
+    border: 1px solid transparent;
+    &:hover{
+        color: $secondary;
+        background-color: white;
+        border: 1px solid $primary;
+    }
+}
+.error-img{
+    width: 60%;
+    height: auto;
+}
