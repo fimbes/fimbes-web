@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Fimbes | Hamulce
+title: Hamulce
 description: Hamulce elektromagnetyczne do obrabiarek i suwnic
 collection: hamulce
 permalink: '/hamulce/'

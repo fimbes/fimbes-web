@@ -1,5 +1,5 @@
 ---
-title: Fimbes | About
+title: About
 description: The story behind our company
 layout: default
 permalink: '/en/about/'

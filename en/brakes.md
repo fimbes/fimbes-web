@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Fimbes | Brakes
+title: Brakes
 description: Electromagnetic brakes for machine tools
 collection: hamulce
 permalink: '/en/brakes/'

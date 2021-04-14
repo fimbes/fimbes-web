@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Fimbes - Wawrzycki i syn
+title: Wawrzycki i syn
 description: Sprzęgła, hamulce, szczotkotrzymacze i części zamienne do obrabiarek (tokarek, frezarek, szlifierek itp.)
 permalink: '/'
 translation_url: '/en/'

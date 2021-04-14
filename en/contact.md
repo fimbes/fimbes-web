@@ -1,5 +1,5 @@
 ---
-title: Fimbes | Contact
+title: Contact
 description: If you have a problem with operating a machine tool - contact us.
 layout: default
 permalink: '/en/contact/'

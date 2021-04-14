@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Fimbes | Spare parts
+title: Spare parts
 description: Levers, cross and floor switches, coil reconditioning, clutch discs
 collection: czesci-zamienne
 permalink: '/en/spare-parts/'
