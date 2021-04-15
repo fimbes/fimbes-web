@@ -14,11 +14,9 @@
   <meta property="og:image" content="{{ site.seo.meta_og_image }}" />
   <meta property="og:description" content="{{ translations.siteDesc[page.lang] }}" />
   <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
-  {%- if page.layout == "home" and page.lang == "pl" -%}
-  {%- include schema.html -%}
+  {%- if page.layout == "home" and page.lang == "pl" -%}{%- include schema.html -%}{%- endif -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-P428NX2ELW"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-P428NX2ELW');</script>
-  {%- endif -%}
 </head>
 <body>
     {%- include header.html -%}
