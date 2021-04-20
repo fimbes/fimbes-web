@@ -15,9 +15,9 @@ layout: default
         {%- for collection in site.collections -%}
             {%- if collection.label != 'posts' -%}
                 {%- if collection.label == page.collection -%}
-                    {%- assign categories = site[collection.label] |where: "lang", page.lang | map: "category"  | join: ',' | join: ',' | split: ',' | uniq | sort -%}
-                    {%- for category in categories -%}
-                        <a href="{{ category.url | relative_url }}{{category}}" class="link-to-category">{{category}}</a>
+                    {%- assign categoriesOnly = site[collection.label] | where: 'layout', 'category' | where: 'lang', page.lang -%}
+                    {%- for category in categoriesOnly -%}
+                        <a href="{{ category.permalink | relative_url }}" class="link-to-category">{{category.category}}</a>
                     {%- endfor -%}
                 {%- endif -%}
             {%- endif -%}
