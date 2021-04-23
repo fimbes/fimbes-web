@@ -74,13 +74,22 @@ translation_url: '/o-nas/'
     </div>
     <div class="row">
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/fair300.jpg" alt="Fair Play Certificate">
+            <picture>
+                <source srcset="/assets/cert/fair500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/fair300.jpg" alt="Fair Play Certificate">
+            </picture>
         </div>
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/innowacje300.jpg" alt="Certificate New Quality of Business in Poland">
+            <picture>
+                <source srcset="/assets/cert/innowacje500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/innowacje300.jpg" alt="Certificate New Quality of Business in Poland">
+            </picture> 
         </div>
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/zaufanie300.jpg" alt="Certificate The company you should trust">
+            <picture>
+                <source srcset="/assets/cert/zaufanie500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/zaufanie300.jpg" alt="Certificate The company you should trust">
+            </picture>
         </div>
     </div>
 </div>

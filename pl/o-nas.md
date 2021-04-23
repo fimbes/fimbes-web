@@ -75,13 +75,22 @@ translation_url: '/en/about/'
     </div>
     <div class="row">
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/fair300.jpg" alt="Certyfikat Fair Play">
+            <picture>
+                <source srcset="/assets/cert/fair500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/fair300.jpg" alt="Certyfikat Fair Play">
+            </picture>
         </div>
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/innowacje300.jpg" alt="Certyfikat Nowa jakość biznesu w Polsce">
+            <picture>
+                <source srcset="/assets/cert/innowacje500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/innowacje300.jpg" alt="Certyfikat Nowa jakość biznesu w Polsce">
+            </picture>
         </div>
         <div class="col-lg-6 col-xl-4 d-flex justify-content-center my-3 my-xl-0">
-            <img class="img-fluid" src="/assets/cert/zaufanie300.jpg" alt="Certyfikat Firma której warto zaufać">
+            <picture>
+                <source srcset="/assets/cert/zaufanie500.webp" media="(min-width: 1400px)">
+                <img class="img-fluid" src="/assets/cert/zaufanie300.jpg" alt="Certyfikat Firma której warto zaufać">
+            </picture>
         </div>
     </div>
 </div>
