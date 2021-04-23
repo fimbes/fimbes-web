@@ -60,7 +60,7 @@ defaults:
     values:
       lang: en
 sass:
-  style: compact 
+  style: compressed 
   precision: 10
 
 collections_dir: products
