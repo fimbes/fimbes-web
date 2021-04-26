@@ -5,8 +5,8 @@ category: polish
 company: FUM
 title: VEP-...B
 images: [
-    "/assets/sprzegla/polskie/FUM/vep_01.jpg",
-    "/assets/sprzegla/polskie/FUM/vep_02.jpg"
+    "/assets/sprzegla/polskie/FUM/vep_01-200x200.jpg",
+    "/assets/sprzegla/polskie/FUM/vep_02-200x200.jpg"
     ]
 documents: ["/assets/sprzegla/polskie/FUM/VEP-B.pdf"]
 ---
