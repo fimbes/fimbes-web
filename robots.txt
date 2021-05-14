@@ -1,0 +1,7 @@
+user-agent: *
+disallow: /site/
+disallow: /es/
+disallow: /angielska
+
+
+Sitemap: https://www.fimbes.com.pl/sitemap.xml
