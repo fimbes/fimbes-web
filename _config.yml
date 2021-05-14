@@ -5,6 +5,7 @@ logo:
 permalink: pretty
 default_language: pl
 url: https://fimbes.com.pl
+include: [_redirects]
 exclude: ['README.md']
 defaults:
   -
