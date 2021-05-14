@@ -6,4 +6,4 @@ category: polish
 permalink: '/en/clutches/polish/'
 translation_url: '/sprzegla/polskie/'
 ---
-Clutches from polish manufacturers - Cegielski and FUMO. The clutches do not require adjustment during service.
+Clutches from polish manufacturers - Cegielski, FUM and FUMO. The clutches do not require adjustment during service.

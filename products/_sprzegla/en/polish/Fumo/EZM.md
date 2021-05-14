@@ -7,4 +7,4 @@ title: EZM...
 images: []
 documents: []
 ---
-Gear coupling for dry and oil service.
+Electromagnetic gear coupling for dry and oil service.

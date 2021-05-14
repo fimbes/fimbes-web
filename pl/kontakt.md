@@ -15,9 +15,9 @@ translation_url: '/en/contact/'
                 <br>
                 ul. Przemysłowa 9
                 <br>
-                63-500 Ostrzeszow
+                63-500 Ostrzeszów
                 <br>
-                POLAND
+                POLSKA
             </p>
         </div>
         <div class="col-md-3 my-2">

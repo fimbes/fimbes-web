@@ -7,4 +7,4 @@ title: ESM...
 images: []
 documents: []
 ---
-Disc clutch for dry running.
+Dry running single-plate electromagnetic clutch.

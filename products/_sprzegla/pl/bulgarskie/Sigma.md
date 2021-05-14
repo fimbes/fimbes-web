@@ -2,7 +2,7 @@
 layout: product
 type: sprzęgła
 category: bułgarskie
-company: Sigma
+company: null
 title: SIGMA
 images: []
 documents: []

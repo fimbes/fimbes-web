@@ -2,7 +2,7 @@
 layout: product
 type: clutches
 category: bulgarian
-company: Sigma
+company: null
 title: SIGMA
 images: []
 documents: []

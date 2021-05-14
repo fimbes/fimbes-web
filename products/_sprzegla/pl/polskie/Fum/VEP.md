@@ -10,4 +10,4 @@ images: [
     ]
 documents: ["/assets/sprzegla/polskie/FUM/VEP-B.pdf"]
 ---
-Sprzęgło wielopłytkowe do pracy w oleju. Napięcie zasilania 24 ± 1 V (d.c) należy podłączyć bezpośrednio do listwy zaciskowej sprzęgła (specjalne zamówienie 12V / 48V).
+Sprzęgło elektromagnetyczne wielopłytkowe do pracy w oleju. Napięcie zasilania 24 ± 1 V (d.c) należy podłączyć bezpośrednio do listwy zaciskowej sprzęgła (specjalne zamówienie 12V / 48V).

@@ -6,4 +6,4 @@ category: bułgarskie
 permalink: '/sprzegla/bulgarskie/'
 translation_url: '/en/clutches/bulgarian/'
 ---
-Sprzęgła od bułgarskich producentów.
+Sprzęgła od bułgarskich producentów - Sigma

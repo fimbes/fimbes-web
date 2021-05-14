@@ -2,7 +2,7 @@
 layout: product
 type: sprzęgła
 category: japońskie
-company: Shinko
+company: null
 title: SHINKO...
 images: []
 documents: ["/assets/sprzegla/japonskie/Shinko/shinko.pdf"]

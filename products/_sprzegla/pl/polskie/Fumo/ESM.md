@@ -7,4 +7,4 @@ title: ESM...
 images: ["/assets/sprzegla/polskie/FUM/esm-200x200.jpg", "/assets/sprzegla/polskie/FUM/esm_02-200x200.jpg"]
 documents: []
 ---
-Sprzęgło tarczowe do pracy na sucho.
+Sprzęgło elektromagnetyczne jednotarczowe do pracy na sucho.

@@ -2,7 +2,7 @@
 layout: product
 type: clutches
 category: japanese
-company: Shinko
+company: null
 title: SHINKO...
 images: []
 documents: ["/assets/sprzegla/japonskie/Shinko/shinko.pdf"]

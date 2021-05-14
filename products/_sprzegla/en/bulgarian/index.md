@@ -6,4 +6,4 @@ category: bulgarian
 permalink: '/en/clutches/bulgarian/'
 translation_url: '/sprzegla/bulgarskie/'
 ---
-Clutches from bulgarian manufacturers
+Clutches from bulgarian manufacturers - Sigma

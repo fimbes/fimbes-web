@@ -7,4 +7,4 @@ title: EZM...
 images: []
 documents: []
 ---
-Sprzęgło zębate do pracy na sucho i w oleju.
+Sprzęgło elektromagnetyczne zębate do pracy na sucho i w oleju.
